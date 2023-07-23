@@ -1,23 +1,24 @@
 function App() {
   return (
     <>
-      <div className="bg-red-200 max-w-2xl mx-auto">
-        <div className="flex items-center">
-          <h1>
-            Marian Minar
-          </h1>
-          <div>
-            <ul>
-              <li>1614 Pope Pl.</li>
-              <li>Merritt B.C.</li>
-              <li>V1K 0B8</li>
-              <li>Canada</li>
-            </ul>
+      <div className="mx-auto bg-light-gray py-[85px] desktop:py-[138px]">
+        <div className="mx-auto h-[495px] w-[320px] rounded-2xl bg-white shadow-xl shadow-gray-300">
+          <div className="flex h-full flex-col items-center p-4 text-center font-sans">
+            <img className="rounded-xl" src="public/qr.png" alt="QR Code" />
+            <div className="flex h-full flex-col items-center justify-center p-4 align-middle">
+              <div className="mb-4 text-[20px] font-bold text-dark-blue">
+                Improve your front-end skills by building projects
+              </div>
+              <div className="text-grayish-blue">
+                Scan the QR code to visit Frontend Mentor and take your coding
+                skills to the next level
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
