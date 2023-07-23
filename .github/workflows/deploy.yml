@@ -1,9 +1,7 @@
 name: Deploy to GitHub Pages
-on:
-  push:
-    branches:
-      - master
-
+on: [push]
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
