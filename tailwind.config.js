@@ -8,7 +8,6 @@ export default {
     },
     fontFamily: {
       sans: ['Outfit', 'sans-serif'],
-      serif: ['', 'serif'],
     },
     extend: {
       colors: {
